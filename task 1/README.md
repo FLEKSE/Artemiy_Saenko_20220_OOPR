@@ -168,7 +168,7 @@ if __name__ == "__main__":
     app = App()
     app.mainloop()
 ```
-![Main interface](https://github.com/KingMem/Victor_Masis_20220_OOPR/blob/main/Task_1/img/main_interface.png)
-![Amount sorting](https://github.com/KingMem/Victor_Masis_20220_OOPR/blob/main/Task_1/img/amount_sort.png)
-![Category sorting](https://github.com/KingMem/Victor_Masis_20220_OOPR/blob/main/Task_1/img/category_sort.png)
-![Tip for category](https://github.com/KingMem/Victor_Masis_20220_OOPR/blob/main/Task_1/img/list.png)
+![Interface](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%201/img/interface.png)
+![Price sorted](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%201/img/price_sorted.png)
+![Category sorted](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%201/img/category_sorted.png)
+![Tip](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%201/img/tip.png)
