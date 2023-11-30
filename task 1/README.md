@@ -1,5 +1,12 @@
 # Artemiy_Saenko_20220_OOPR
-task 1
+
+Task_1: Создание программы "Учет расходов" на базе Tkinter
+1) Программа должна быть в ООП стиле.
+2) Проверка вводимых значений в поля.
+3) Всплывающие подсказки группы товара.
+4) Сортировка по цене max min. 
+5) Сортировка по группам товара.
+
 
 Программа позволяет создавать, сохранять, открывать и редактировать таблицы расширения .csv. Если пользователь ввёл корректные данные, то они будут добавлены в таблицу.
 
@@ -170,6 +177,9 @@ if __name__ == "__main__":
     app = App()
     app.mainloop()
 ```
+
+Результатом работы программы является файл с разрешением .csv в котором храниться талица с категориями, датами и ценами
+
 ![Main interface](https://github.com/KingMem/Victor_Masis_20220_OOPR/blob/main/Task_1/img/main_interface.png)
 ![Amount sorting](https://github.com/KingMem/Victor_Masis_20220_OOPR/blob/main/Task_1/img/amount_sort.png)
 ![Category sorting](https://github.com/KingMem/Victor_Masis_20220_OOPR/blob/main/Task_1/img/category_sort.png)
