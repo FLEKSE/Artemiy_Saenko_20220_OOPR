@@ -34,7 +34,7 @@ server_address = ('localhost', 10000)
 print('Подключено к {} порт {}'.format(*server_address))
 sock.connect(server_address)
 
-for i in range(10):
+while True:
     mess ="Hello World"
     print(f'Отправка: {mess}')
     message = mess.encode()
