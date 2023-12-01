@@ -44,6 +44,8 @@ for i in range(10):
 
 ![server 3.1](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/server%203.1.png)
 
+Task_3_2_server.py Task_3_2_client.py Используя pickle - де/сериализация произвольных объектов.
+
 Task_3_2_client.py
 
 ```python
@@ -111,3 +113,5 @@ while True:
 ```
 
 ![server 3.2](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/server%203.2.png)
+
+Task_3_3_server.py Task_3_3_client.py Используя Google Protocol Buffers - де/сериализация определенных структурированных данных, а не произвольных объектов Python
