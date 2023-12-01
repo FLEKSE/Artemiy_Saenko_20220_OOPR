@@ -56,19 +56,19 @@ class Data():
         self.data = mess
         self.receiver_ip = receiver_ip
 
-# serv1 = Server()
-# serv2 = Server()
-# router1 = Router()
+serv1 = Server()
+serv2 = Server()
+router1 = Router()
 
-# router1.link(serv1)
-# router1.link(serv2)
+router1.link(serv1)
+router1.link(serv2)
 
-# serv1.send_data(Data("Hello", serv2.get_ip()))
-# serv2.send_data(Data("Hi", serv1.get_ip()))
-# router1.send_data()
-# received_data1 = serv1.get_data()
-# received_data2 = serv2.get_data()
-# print(f'serv1 получил {received_data1[0].data}, serv2 получил {received_data2[0].data}')
+serv1.send_data(Data("Hello", serv2.get_ip()))
+serv2.send_data(Data("Hi", serv1.get_ip()))
+router1.send_data()
+received_data1 = serv1.get_data()
+received_data2 = serv2.get_data()
+print(f'serv1 получил {received_data1[0].data}, serv2 получил {received_data2[0].data}')
 
 assert hasattr(Router, 'link') and hasattr(Router, 'unlink') and hasattr(Router, 'send_data'), "в классе Router присутсвутю не все методы, указанные в задании"
 assert hasattr(Server, 'send_data') and hasattr(Server, 'get_data') and hasattr(Server, 'get_ip'), "в классе Server присутсвутю не все методы, указанные в задании"
