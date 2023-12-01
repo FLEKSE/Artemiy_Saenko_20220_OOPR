@@ -19,5 +19,5 @@ while True:
     with open('3_2_client.pickle', 'rb') as f:
         sock.sendall(f.read())
     
-    time.sleep(10)
+    time.sleep(1)
 
