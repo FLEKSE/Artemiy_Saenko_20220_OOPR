@@ -91,3 +91,5 @@ router.send_data()
 msg_lst_to = sv_to.get_data()
 assert msg_lst_to == [], "метод get_data() вернул неверные данные, возможно, неправильно работает метод unlink()"
 ```
+Результатом работы программы является данные которые переходят от одного сервера к другому через роутер
+![how_work](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%202/img/how_working.png)
