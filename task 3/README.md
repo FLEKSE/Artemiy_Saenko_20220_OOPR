@@ -21,7 +21,7 @@ for i in range(10):
     time.sleep(1)
 ```
 
-![how_work](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/client%203.1.png)
+![client 3.1](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/client%203.1.png)
 
 Task_3_1_server.py
 
@@ -42,7 +42,7 @@ for i in range(10):
     time.sleep(1)
 ```
 
-![how_work](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/server%203.1.png)
+![server 3.1](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/server%203.1.png)
 
 Task_3_2_client.py
 
@@ -71,7 +71,7 @@ while True:
     time.sleep(1)
 ```
 
-![how_work](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/client%203.2.png)
+![client 3.2](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/client%203.2.png)
 
 Task_3_2_server.py
 
@@ -110,4 +110,4 @@ while True:
         pass
 ```
 
-![how_work](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/server%203.2.png)
+![server 3.2](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/server%203.2.png)
