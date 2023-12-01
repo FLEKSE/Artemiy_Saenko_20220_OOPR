@@ -1,9 +1,3 @@
-# Artemiy_Saenko_20220_OOPR
-
-Task_2: имитация локальной сети, которая состоит из набора серверов, соединенных между собой через роутер
-1) программа должна прогходить проверки
-2) должны быть реализованны класы Router, Server, Data
-```python
 class Router():
     def __init__(self) -> None:
         i = 0                                
@@ -62,6 +56,19 @@ class Data():
         self.data = mess
         self.receiver_ip = receiver_ip
 
+# serv1 = Server()
+# serv2 = Server()
+# router1 = Router()
+
+# router1.link(serv1)
+# router1.link(serv2)
+
+# serv1.send_data(Data("Hello", serv2.get_ip()))
+# serv2.send_data(Data("Hi", serv1.get_ip()))
+# router1.send_data()
+# received_data1 = serv1.get_data()
+# received_data2 = serv2.get_data()
+# print(f'serv1 получил {received_data1[0].data}, serv2 получил {received_data2[0].data}')
 
 assert hasattr(Router, 'link') and hasattr(Router, 'unlink') and hasattr(Router, 'send_data'), "в классе Router присутсвутю не все методы, указанные в задании"
 assert hasattr(Server, 'send_data') and hasattr(Server, 'get_data') and hasattr(Server, 'get_ip'), "в классе Server присутсвутю не все методы, указанные в задании"
@@ -90,4 +97,3 @@ sv_from.send_data(Data("Hello", sv_to.get_ip()))
 router.send_data()
 msg_lst_to = sv_to.get_data()
 assert msg_lst_to == [], "метод get_data() вернул неверные данные, возможно, неправильно работает метод unlink()"
-```
