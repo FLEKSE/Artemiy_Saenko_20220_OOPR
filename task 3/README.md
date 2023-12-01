@@ -61,7 +61,7 @@ server_address = ('localhost', 10000)
 print('Подключено к {} порт {}'.format(*server_address))
 sock.connect(server_address)
 
-while True:
+for i in range(10):
 
     mess = 'Hello, world!'
     print(f'Отправка: {mess}')
