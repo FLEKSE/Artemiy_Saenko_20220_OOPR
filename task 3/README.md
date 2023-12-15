@@ -153,9 +153,10 @@ with s:
         temp.event_id = 2
         temp.humidity = 3
         temp.video_data = 4
-        data = s.sendall(temp.SerializeToString())
-        print(data)
+        s.sendall(temp.SerializeToString())
+        print("отправлено: \n",temp)
         time.sleep(1)    
+ 
 
 ```
 ![client 3.3](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/client%203.3.png)
@@ -197,6 +198,11 @@ with conn:
     print('Connected by', addr)
     while True:
         data = conn.recv(1024) 
-        print(temp.FromString(data))
+        temp.ParseFromString(data)
+        print(temp.device_id, 
+        temp.event_id,
+        temp.humidity,
+        temp.video_data)
+
 ```
 ![server 3.3](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/server%203.3.png)
