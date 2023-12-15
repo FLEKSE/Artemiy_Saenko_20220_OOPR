@@ -34,4 +34,8 @@ with conn:
     print('Connected by', addr)
     while True:
         data = conn.recv(1024) 
-        print(temp.FromString(data))
+        temp.ParseFromString(data)
+        print(temp.device_id, 
+        temp.event_id,
+        temp.humidity,
+        temp.video_data)
