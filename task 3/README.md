@@ -158,7 +158,7 @@ with s:
         time.sleep(1)    
 
 ```
-![client 3.3]()
+![client 3.3](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/client%203.3.png)
 Task_3_3_server.py
 ```python
 import socket
@@ -199,4 +199,4 @@ with conn:
         data = conn.recv(1024) 
         print(temp.FromString(data))
 ```
-![server 3.3]()
+![server 3.3](https://github.com/FLEKSE/Artemiy_Saenko_20220_OOPR/blob/main/task%203/img/server%203.3.png)
