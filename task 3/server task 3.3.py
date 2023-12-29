@@ -38,4 +38,5 @@ with conn:
         print(temp.device_id, 
         temp.event_id,
         temp.humidity,
-        temp.video_data)
+        temp.video_data,
+        temp.name)

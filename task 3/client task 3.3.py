@@ -34,6 +34,7 @@ with s:
         temp.event_id = 2
         temp.humidity = 3
         temp.video_data = 4
+        temp.name = "5"
         s.sendall(temp.SerializeToString())
         print("отправлено: \n",temp)
         time.sleep(1)    

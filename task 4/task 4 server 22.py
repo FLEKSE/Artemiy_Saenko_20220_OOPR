@@ -5,7 +5,7 @@ from PySide6.QtCore import Qt, QThread, Signal, Slot
 from PySide6.QtNetwork import QTcpServer, QHostAddress
 from PySide6.QtGui import QAction, QImage, QPixmap
 from PySide6.QtWidgets import (QApplication, QHBoxLayout, QLabel, QMainWindow, QPushButton, QSizePolicy, QVBoxLayout, QWidget)
-import socket
+
 
 
 class Thread(QThread):
@@ -27,7 +27,7 @@ class Thread(QThread):
 
         while g_run:
             try:
-                data = self.socket.recv()
+                data = self.socket.read()
                 image_bytes = data[len_topic:]
                 image_wrapper.image_pb.ParseFromString(image_bytes)
 
